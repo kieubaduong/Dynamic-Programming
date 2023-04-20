@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Scanner;
 
 public class Main {
-    private static HashMap<Long, Long> dp = new HashMap<Long, Long>();
+    private static final HashMap<Long, Long> dp = new HashMap<>();
 
     public static long maxCoin(long n) {
         if (!dp.containsKey(n)) {
