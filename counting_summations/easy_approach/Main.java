@@ -10,7 +10,7 @@ public class Main {
         long[][] dp = new long[(n + 1)][(n + 1)];
         dp[0][0] = 1;
         for (int j = 1; j <= n; j++) {
-            dp[0][j] = 1;
+            dp[0][j] = 0;
         }
 
         for (int i = 1; i <= n; i++) {
